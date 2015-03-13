@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/alexandre-normand/everytimisawesome",
-	"GoVersion": "devel +b137074 Tue Jan 6 19:18:28 2015 +0000",
+	"GoVersion": "go1.4.2",
 	"Deps": [
 		{
 			"ImportPath": "github.com/ccding/go-config-reader/config",
