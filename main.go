@@ -31,6 +31,7 @@ func run() int {
 		hal.Logger.Error(err)
 		return 1
 	}
+	hal.Logger.Info("Started")
 	return 0
 }
 
