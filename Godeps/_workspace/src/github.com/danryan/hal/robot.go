@@ -120,6 +120,7 @@ func (robot *Robot) Run() error {
 	for !stop {
 		select {
 		case sig := <-robot.signalChan:
+                        Logger.Debugf("Received signal [%v]", sig) 
 			switch sig {
 			case syscall.SIGINT, syscall.SIGTERM:
 				stop = true

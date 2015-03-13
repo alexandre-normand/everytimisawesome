@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/danryan/hal"
+	_ "github.com/danryan/hal/adapter/shell"
 	_ "github.com/danryan/hal/adapter/slack"
 	_ "github.com/danryan/hal/store/memory"
 	"os"
