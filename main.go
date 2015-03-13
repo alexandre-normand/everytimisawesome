@@ -17,6 +17,8 @@ var echoHandler = hal.Respond(`echo (.+)`, func(res *hal.Response) error {
 
 func run() int {
 	robot, err := hal.NewRobot()
+        hal.Logger.Info("Starting")
+
 	if err != nil {
 		hal.Logger.Error(err)
 		return 1
