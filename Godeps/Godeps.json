@@ -1,6 +1,6 @@
 {
 	"ImportPath": "github.com/alexandre-normand/everytimisawesome",
-	"GoVersion": "go1.4.2",
+	"GoVersion": "devel +b137074 Tue Jan 6 19:18:28 2015 +0000",
 	"Deps": [
 		{
 			"ImportPath": "github.com/ccding/go-config-reader/config",
@@ -20,8 +20,16 @@
 			"Rev": "8d1621a9815d4f4ba6ceec81e43f146e88c58d6e"
 		},
 		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Rev": "fc32781af5e85e548d3f1abaf0fa3dbe8a72495c"
+		},
+		{
 			"ImportPath": "github.com/kardianos/osext",
 			"Rev": "ccfcd0245381f0c94c68f50626665eed3c6b726a"
+		},
+		{
+			"ImportPath": "github.com/thoj/go-ircevent",
+			"Rev": "5e6704d8956eeba81a2cbac9ba73bd609da39d0f"
 		}
 	]
 }
