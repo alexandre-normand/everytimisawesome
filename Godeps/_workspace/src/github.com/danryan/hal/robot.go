@@ -118,9 +118,10 @@ func (robot *Robot) Run() error {
 
 	stop := false
 	for !stop {
+		Logger.Info("Waiting on signal channel")
 		select {
 		case sig := <-robot.signalChan:
-                        Logger.Debugf("Received signal [%v]", sig) 
+			Logger.Infof("Received signal: %v", sig)
 			switch sig {
 			case syscall.SIGINT, syscall.SIGTERM:
 				stop = true
