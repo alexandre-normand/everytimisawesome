@@ -107,7 +107,7 @@ func (robot *Robot) Run() error {
 
 	// Start the HTTP server after the adapter, as adapter.Run() adds additional
 	// handlers to the router.
-	Logger.Debug("starting HTTP server")
+	Logger.Debugf("starting HTTP server on %d", Config.Port)
 	go func() {
 		if err := http.ListenAndServe(`:`+strconv.Itoa(Config.Port), Router); err != nil {
 			Logger.Debug(err)
