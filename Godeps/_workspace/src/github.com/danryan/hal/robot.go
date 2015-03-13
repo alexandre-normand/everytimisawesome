@@ -123,7 +123,7 @@ func (robot *Robot) Run() error {
 		case sig := <-robot.signalChan:
 			Logger.Infof("Received signal: %v", sig)
 			switch sig {
-			case syscall.SIGINT, syscall.SIGTERM:
+			case syscall.SIGINT:
 				stop = true
 			}
 		}
