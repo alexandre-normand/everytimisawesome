@@ -1,0 +1,27 @@
+{
+	"ImportPath": "github.com/alexandre-normand/everytimisawesome",
+	"GoVersion": "devel +b137074 Tue Jan 6 19:18:28 2015 +0000",
+	"Deps": [
+		{
+			"ImportPath": "github.com/ccding/go-config-reader/config",
+			"Rev": "8b6c2b50197f20da3b1c5944c274c173634dc056"
+		},
+		{
+			"ImportPath": "github.com/ccding/go-logging/logging",
+			"Comment": "v0.1-20-g45350b8",
+			"Rev": "45350b825446988c584822d16efda0a07f1e6ef2"
+		},
+		{
+			"ImportPath": "github.com/danryan/env",
+			"Rev": "bc567f4d372a17eb756004cdbfd8458ecc04b07e"
+		},
+		{
+			"ImportPath": "github.com/danryan/hal",
+			"Rev": "8d1621a9815d4f4ba6ceec81e43f146e88c58d6e"
+		},
+		{
+			"ImportPath": "github.com/kardianos/osext",
+			"Rev": "ccfcd0245381f0c94c68f50626665eed3c6b726a"
+		}
+	]
+}
